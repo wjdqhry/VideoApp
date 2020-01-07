@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:video_app/screens/videoplayerscreen.dart';
 
 void main() => runApp(VideoApp());
 
@@ -10,13 +11,5 @@ class VideoApp extends StatelessWidget{
       home: VideoPlayerScreen(),
     );
   }
-  
-} 
-class VideoPlayerScreen extends StatefulWidget{
-  _VideoPlayerScreen createSate() => _VideoPlayerScreen();
-}
-
-class _VideoPlayerScreen extends State<VideoPlayerScreen>{
-  
 }
 
